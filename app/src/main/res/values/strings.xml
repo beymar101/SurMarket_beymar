@@ -8,4 +8,8 @@
     <string name="FRLogin_TXVRecoverPassword">Recuperar contraseña</string>
     <string name="BTNLogin_BTNLogin">Inciar Sesion</string>
     <string name="BTNLogin_BTNRegister">Registrate aqui</string>
+    <string name="loginWelcome">Bienvenido a Sur Market</string>
+    <string name="loginError">Usuario o contraseña invalidos</string>
+    <string name="userEmpty">Ingrese su nombre de usuario</string>
+    <string name="passwordEmpty">Ingrese su contraseña</string>
 </resources>

@@ -34,7 +34,7 @@
         android:textSize="@dimen/FRGLabelTextSize"
         />
     <EditText
-        android:id="@+id/TXV_FRGLOgin_UserName"
+        android:id="@+id/ETX_FRGLOgin_UserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/FRGLogin_ETXUserName"
@@ -50,7 +50,7 @@
         android:textSize="@dimen/FRGLabelTextSize"
         />
     <EditText
-        android:id="@+id/TXV_FRGLOgin_Password"
+        android:id="@+id/ETX_FRGLOgin_Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/FRGLogin_ETXPassword"
