@@ -34,7 +34,7 @@ class FragmentLogin : Fragment() {
 
     private fun initalizeView(view: View) {
         EXT_FRGLogin_UserName = view.findViewById(R.id.ETX_FRGLOgin_UserName)
-        EXT_FRGLogin_Pasaword = view.findViewById(R.id.ETX_FRGLOgin_UserName)
+        EXT_FRGLogin_Pasaword = view.findViewById(R.id.ETX_FRGLOgin_Password)
         TXv_FRGLogin_RecoverPassword = view.findViewById(R.id.TXVFRGLogin_RecoverPassword)
         BTN_FRGLogin_Login = view.findViewById(R.id.BTN_FRGLogin_Login)
         BTN_FRGLogin_Register = view.findViewById(R.id.BTN_FRGLogin_Register)
@@ -59,12 +59,16 @@ class FragmentLogin : Fragment() {
         {
             return
         }
-        if (verifyCredentials(user,password)){
-            Toast.makeText(requireContext(),getString(R.string.loginWelcome), Toast.LENGTH_SHORT).show()
-        }
-        else
-        {
-            Toast.makeText(requireContext(),getString(R.string.loginError), Toast.LENGTH_SHORT).show()
+        if (verifyCredentials(user, password)) {
+                Toast.makeText(
+                    requireContext(),
+                    getString(R.string.loginWelcome),
+                    Toast.LENGTH_SHORT
+                ).show()
+            } else {
+                Toast.makeText(requireContext(), getString(R.string.loginError), Toast.LENGTH_SHORT)
+                    .show()
+
         }
     }
 
@@ -75,6 +79,7 @@ class FragmentLogin : Fragment() {
         if(user.isEmpty())
         {
             EXT_FRGLogin_UserName.error = getString(R.string.userEmpty)
+            res = false
         }
         else
         {
@@ -83,6 +88,7 @@ class FragmentLogin : Fragment() {
         if(password.isEmpty())
         {
             EXT_FRGLogin_Pasaword.error = getString(R.string.passwordEmpty)
+            res = false
         }
         else
         {
