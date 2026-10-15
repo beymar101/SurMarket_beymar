@@ -83,6 +83,8 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    </LinearLayout>
+
         <Button
             android:id="@+id/BTN_FRGProductsList_AddProduct"
             android:layout_width="match_parent"
@@ -92,6 +94,11 @@
             android:textStyle="bold"
             android:layout_marginHorizontal="16sp"
             />
-    </LinearLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RCV_FRGProductsList_ProductsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_productslist" />
 </LinearLayout>
