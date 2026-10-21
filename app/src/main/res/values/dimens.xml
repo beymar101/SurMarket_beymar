@@ -19,4 +19,5 @@
     <dimen name="ITTextView_TextSize">12sp</dimen>
     <dimen name="ITMarginBotton">4dp</dimen>
     <dimen name="BTN_padding_horizontal">16dp</dimen>
+    <dimen name="FRGMarginTop">90dp</dimen>
 </resources>

@@ -6,7 +6,7 @@
     <string name="FRGLogin_TXVPassword">Contraseña</string>
     <string name="FRGLogin_ETXPassword">Ingrese su contraseña</string>
     <string name="FRLogin_TXVRecoverPassword">Recuperar contraseña</string>
-    <string name="BTNLogin_BTNLogin">Inciar Sesion</string>
+    <string name="BTNLogin_BTNLogin">Iniciar Sesion</string>
     <string name="BTNLogin_BTNRegister">Registrate aqui</string>
     <string name="loginWelcome">Bienvenido a Sur Market</string>
     <string name="loginError">Usuario o contraseña invalidos</string>
@@ -19,4 +19,5 @@
     <string name="FRGProductsList_BTNAddProduct">Añadir Producto</string>
     <string name="product">Producto</string>
     <string name="ITProductsList_BTNBuyProduct">Comprar</string>
+    <string name="labelProductsListFragment">Lista de productos</string>
 </resources>

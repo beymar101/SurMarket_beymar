@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph.xml"
+    android:id="@+id/nav_graph"
     app:startDestination="@id/LoginFragment"
     >
     <fragment
@@ -15,5 +15,13 @@
             android:id="@+id/action_login_to_products_list"
             app:destination="@+id/productsListFragment"
             />
+    </fragment>
+    <fragment
+        android:id="@id/productsListFragment"
+        android:name="bo.edu.uajms.beymarchoque.surmarket.FragmentProductsList"
+        android:label="@string/labelProductsListFragment"
+        tools:layout="@layout/fragment_products_list"
+        >
+
     </fragment>
 </navigation>
