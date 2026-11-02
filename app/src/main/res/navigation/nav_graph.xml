@@ -22,6 +22,16 @@
         android:label="@string/labelProductsListFragment"
         tools:layout="@layout/fragment_products_list"
         >
-
+        <action
+            android:id="@+id/action_products_list_to_add_product"
+            app:destination="@+id/AddProductFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/AddProductFragment"
+        android:name="bo.edu.uajms.beymarchoque.surmarket.FragmentAddProduct"
+        android:label="@string/labelAddProductFragment"
+        tools:layout="@layout/fragment_products_list"
+        >
     </fragment>
 </navigation>

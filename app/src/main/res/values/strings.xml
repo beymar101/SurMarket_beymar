@@ -43,4 +43,9 @@
     <string name="availability_available">Disponible</string>
     <string name="availability_not_available">No disponible</string>
     <string name="FRGPAddProduct_BTNAddProduct">Añadir Producto</string>
+    <string name="labelAddProductFragment">Añadir producto</string>
+
+    <string name="addProduct">Añadir nuevo producto</string>
+
+
 </resources>
