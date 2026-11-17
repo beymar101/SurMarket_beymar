@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#FFEEEEEE</color>
+
+    <color name="inputColor">#9E9E9E</color>
+    <color name="buttonColorGray">#EBF1F5</color>
+    <color name="inputFondoGris">#C3C3C3</color>
+    <color name="inputLetraGris">#767676</color>
+
 </resources>
